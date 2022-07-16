@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('create') {
+            steps {
+                echo 'Creating'
+                
+                //sh "touch jenkinsfile.txt"
+                //sh "chmod 777 jenkinsfile.txt"
+                //sh "ls-lrth/var/lib/jenkins/workspace/PipelineAssignment"
+                
+            }
+        }
+        stage('write') {
+            steps {
+                echo 'Writing'
+    }
+}
+
+stage('Read') {
+            steps {
+                echo 'Reading'
+            }
+}
+stage('Delete') {
+            steps {
+                echo 'Deleteing'
+            }
+
+}
+}
+}
+
+                
